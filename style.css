@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+body, html{
+    width: 100%;
+    height: 100%;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background: black;
+    overflow-x: hidden;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    width:100%;
+    font-size: 45vw;
+    font-weight: 400;
+    text-align: center;
+    margin: 0;
+}
+.container{
+    width: 100%;
+    /* height: 1200vh; */
+    height: 100vh;
+
+}
+nav{
+    position: fixed;
+    top: 0;
+    padding: 1em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+/**/
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+  margin-bottom: 20rem;
+
+}
+.home h1 {
+  font-size: 5rem;
+  font-weight: bold;
+
+}
+.wrapper{
+    position: absolute;
+    width: 330vw;
+    height: 100vh;
+    top: 250; /*0*/
+    will-change: transform;
+    
+}
+.wrapper h1{
+    top: 50%;
+    left: 50%;
+}
+.card{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+#card-1{
+    top: 50%;
+    left: 20%;
+}
+#card-2{
+    top: 25%;
+    left: 40%;
+}
+#card-3{
+    top: 40%;
+    left: 60%;
+}
+#card-4{
+    top: 35%;
+    left: 80%;
+}
+.outro{
+    position:absolute;
+    width: 100%;
+    height: 100vh;
+    top: 295vh; /*150*/
+    
+} 
+
+.outro h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    width: max-content;
+    font-size: 40px;
+    font-weight: lighter;
+    transform: translate(-50%,-50%);
+}
+
+@media (max-width: 900px){
+    .wrapper{
+        padding-top: 20em;
+    }
+    .card{
+        width: 150px;
+        height: 150px;
+    }
+}
