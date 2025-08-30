@@ -2,10 +2,12 @@ gsap.registerPlugin(ScrollTrigger);
 
 document.addEventListener("DOMContentLoaded", function(){
     const cards=[
+        { id:"#card-0", endTranslateX: -1800, rotate: -45},
         { id:"#card-1", endTranslateX: -2000, rotate: 45},
         { id:"#card-2", endTranslateX: -1000, rotate: -35},
         { id:"#card-3", endTranslateX: -1700, rotate: 40},
         { id:"#card-4", endTranslateX: -1400, rotate: -30},
+        { id:"#card-5", endTranslateX: -1200, rotate: 35},
     ]
 
     ScrollTrigger.create({
