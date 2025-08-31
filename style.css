@@ -148,9 +148,19 @@ nav{
 @media (max-width: 900px){
     .wrapper{
         padding-top: 20em;
+        
     }
     .card{
         width: 150px;
         height: 150px;
+    }
+    .outro-head{
+        font-size: 18px;
+    }
+    .outro-author{
+        font-size: 15px;
+    }
+    .footer{
+        font-size: 12px;
     }
 }
